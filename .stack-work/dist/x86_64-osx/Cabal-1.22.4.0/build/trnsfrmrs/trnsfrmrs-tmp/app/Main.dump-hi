@@ -1,0 +1,324 @@
+
+==================== FINAL INTERFACE ====================
+2015-09-16 16:38:33.269551 UTC
+
+interface main@main:Main 7102
+  interface hash: 42507b770bb8f5fe24a7c0d226a64da5
+  ABI hash: 4f7192eeafeda6fd5dcca66ee2cf850b
+  export-list hash: 03e358aaf923098877984288ffc69c4c
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 92c5302fbca4d1eddbe97db53d614576
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.eval0
+  Main.eval1
+  Main.eval2a
+  Main.eval2b
+  Main.eval2c
+  Main.exampleExp
+  Main.main
+  Main.runEval1
+  Main.runEval2
+  Main.Env
+  Main.Eval1
+  Main.Eval2
+  Main.Exp{Main.Abs Main.App Main.Lit Main.Plus Main.Var}
+  Main.Name
+  Main.Value{Main.FunVal Main.IntVal}
+module dependencies:
+package dependencies: MonadRandom-0.4@Monad_0HPLrpuIT1h0NYNnfFzaza
+                      StateVar-1.1.0.1@State_6K4a3UqSdqh6lGAm1wlr9s
+                      array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ base-4.8.1.0*
+                      bifunctors-5@bifun_6cWzSBWZD9ID5wcfOFIydn
+                      binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd
+                      bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH
+                      comonad-4.2.7.2@comon_Iyp8zBsbnTG1MeVOAVEXig
+                      containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      contravariant-1.3.2@contr_Ex6x6hL6qVP0xeZutOTf0R
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o
+                      distributive-0.4.4@distr_IiTFZxvjHzA0FvKz3AU35Q
+                      either-4.4.1@eithe_DBWWPn0Av2zKJeLeuYuD6t*
+                      exceptions-0.8.0.2@excep_8GsEeHgaIks3pVGk6GaELJ
+                      free-4.12.1@free_AW1LSLZ5gRE6OPcReQnEpn ghc-prim-0.4.0.0
+                      hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy integer-gmp-1.0.0.0
+                      mmorph-1.0.4@mmorp_8dNpUU8QFPe77rrwKAb20b
+                      monad-control-1.0.0.4@monad_3XCDr1mqlERGZgaxuwJF6b
+                      mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU
+                      random-1.1@rando_1z8Ujelqc6aKgvPnbRUKkP
+                      semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO
+                      semigroupoids-5.0.0.4@semig_AaxZ8J0J9AJFrgjq1J33Wj
+                      stm-2.4.4@stm_C1kFMnPqFjvDhFjgMZGUpr
+                      tagged-0.8.1@tagge_6Tf46oJAk552xT73wGffBW
+                      text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh
+                      time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH
+                      transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X
+                      transformers-base-0.4.4@trans_88TAFm21vtn2NrYUppy50c
+                      unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a
+orphans: MonadRandom-0.4@Monad_0HPLrpuIT1h0NYNnfFzaza:Control.Monad.Random
+         base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+         binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Builder
+         hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy:Data.Hashable.Generic
+         stm-2.4.4@stm_C1kFMnPqFjvDhFjgMZGUpr:Control.Monad.STM
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Show
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.Format.Parse
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X:Control.Monad.Trans.Error
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Functor.Identity
+                         base-4.8.1.0:Data.Monoid base-4.8.1.0:Data.Type.Equality
+                         base-4.8.1.0:Data.Void base-4.8.1.0:GHC.Exts
+                         base-4.8.1.0:GHC.Generics
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntMap.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntSet.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Sequence
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+                         either-4.4.1@eithe_DBWWPn0Av2zKJeLeuYuD6t:Control.Monad.Trans.Either
+                         monad-control-1.0.0.4@monad_3XCDr1mqlERGZgaxuwJF6b:Control.Monad.Trans.Control
+                         semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO:Data.List.NonEmpty
+                         semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO:Data.Semigroup
+                         tagged-0.8.1@tagge_6Tf46oJAk552xT73wGffBW:Data.Tagged
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashMap.Base
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashSet
+import  -/  base-4.8.1.0:Data.Either bc9482e78cc431fce439b593377aa2e6
+import  -/  base-4.8.1.0:Data.Functor.Identity a1d62025f76004ef8a0b496b15c00348
+import  -/  base-4.8.1.0:Data.Maybe 1cb58de2b04ee3c0c0a7dc9201184aff
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.1.0:GHC.Show b8c65ca3124f92a166c9f05120382442
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map 5e4cbf1ca2e6c8cfaecf2b4e95371357
+import  -/  containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base 7ea108dc1481cad0b32efe810e49ad43
+import  -/  either-4.4.1@eithe_DBWWPn0Av2zKJeLeuYuD6t:Control.Monad.Trans.Either 8155ac7aa0088f1176ff8b7cb14c6e4f
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  integer-gmp-1.0.0.0:GHC.Integer.Type bf9b4d13b1dbe96a83786d2e47d2e8ca
+import  -/  mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU:Control.Monad.Error.Class 7ae12d035506561dd4383e069bc67fa6
+import  -/  mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU:Control.Monad.Except 794a4a733dd47f7fbb820afcb8ea0779
+import  -/  mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU:Control.Monad.Identity 011afe5d4477e05293ff9be7bb189343
+import  -/  mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU:Control.Monad.Reader 41eb3f27ab627120db9a4602ab0a88c2
+import  -/  mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU:Control.Monad.State d96af44e8d2501342f4d849385ed921c
+import  -/  mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU:Control.Monad.Writer 4c07f2e27c3db06ca729c97935561a7d
+fb14ed95d6b82f4d8ff9831a729c90ce
+  $fShowExp :: GHC.Show.Show Main.Exp
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Exp
+                  Main.$fShowExp_$cshowsPrec
+                  Main.$fShowExp_$cshow
+                  Main.$fShowExp_$cshowList -}
+fb14ed95d6b82f4d8ff9831a729c90ce
+  $fShowExp1 :: Main.Exp -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ w :: Main.Exp w1 :: GHC.Base.String ->
+                 Main.$w$cshowsPrec 0 w w1) -}
+fb14ed95d6b82f4d8ff9831a729c90ce
+  $fShowExp_$cshow :: Main.Exp -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Main.Exp ->
+                 Main.$fShowExp_$cshowsPrec
+                   GHC.Show.shows18
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+fb14ed95d6b82f4d8ff9831a729c90ce
+  $fShowExp_$cshowList :: [Main.Exp] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__ @ Main.Exp Main.$fShowExp1) -}
+fb14ed95d6b82f4d8ff9831a729c90ce
+  $fShowExp_$cshowsPrec ::
+    GHC.Types.Int -> Main.Exp -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S,1*U(U)><S,1*U><L,U>, Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ w :: GHC.Types.Int w1 :: Main.Exp w2 :: GHC.Base.String ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Main.$w$cshowsPrec ww1 w1 w2 }) -}
+8ba0e119eba70fb11dc8978f9c4d9156
+  $fShowValue :: GHC.Show.Show Main.Value
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Value
+                  Main.$fShowValue_$cshowsPrec
+                  Main.$fShowValue_$cshow
+                  Main.$fShowValue_$cshowList -}
+8ba0e119eba70fb11dc8978f9c4d9156
+  $fShowValue1 :: Main.Value -> GHC.Show.ShowS
+  {- Arity: 1,
+     Unfolding: (\ w :: Main.Value -> Main.$w$cshowsPrec1 0 w) -}
+8ba0e119eba70fb11dc8978f9c4d9156
+  $fShowValue_$cshow :: Main.Value -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Main.Value ->
+                 Main.$fShowValue_$cshowsPrec
+                   GHC.Show.shows18
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+8ba0e119eba70fb11dc8978f9c4d9156
+  $fShowValue_$cshowList :: [Main.Value] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__ @ Main.Value Main.$fShowValue1) -}
+8ba0e119eba70fb11dc8978f9c4d9156
+  $fShowValue_$cshowsPrec ::
+    GHC.Types.Int -> Main.Value -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U(U)><S,1*U>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: GHC.Types.Int w1 :: Main.Value ->
+                 case w of ww { GHC.Types.I# ww1 -> Main.$w$cshowsPrec1 ww1 w1 }) -}
+4cca340c709044a2b3399ccc5f621db2
+  $sinsert_$sgo10 ::
+    Main.Name
+    -> a1
+    -> Data.Map.Base.Map Main.Name a1
+    -> Data.Map.Base.Map Main.Name a1
+  {- Arity: 3, Strictness: <S,1*U><L,U><S,1*U> -}
+820dd24d467fa0e8066bc39704bcf25c
+  $slookup1 ::
+    Main.Name -> Data.Map.Base.Map Main.Name a -> GHC.Base.Maybe a
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U> -}
+fb14ed95d6b82f4d8ff9831a729c90ce
+  $w$cshowsPrec ::
+    GHC.Prim.Int# -> Main.Exp -> GHC.Base.String -> GHC.Base.String
+  {- Arity: 3, Strictness: <L,U><S,1*U><L,U>, Inline: [0] -}
+8ba0e119eba70fb11dc8978f9c4d9156
+  $w$cshowsPrec1 :: GHC.Prim.Int# -> Main.Value -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <L,U><S,1*U>, Inline: [0] -}
+8ba0e119eba70fb11dc8978f9c4d9156
+  type Env = Data.Map.Base.Map Main.Name Main.Value
+b11cd02cef188955386b389eb5ed7c7e
+  type Eval1 a = Data.Functor.Identity.Identity a
+2e06352c409dce5052926688a277ecc3
+  type Eval2 a =
+    Control.Monad.Trans.Either.EitherT
+      GHC.Base.String Data.Functor.Identity.Identity a
+fb14ed95d6b82f4d8ff9831a729c90ce
+  data Exp
+    = Lit GHC.Integer.Type.Integer
+    | Var Main.Name
+    | Plus Main.Exp Main.Exp
+    | Abs Main.Name Main.Exp
+    | App Main.Exp Main.Exp
+0a43047d8144abebd52f5d4d6a718337
+  type Name = GHC.Base.String
+8ba0e119eba70fb11dc8978f9c4d9156
+  data Value
+    = IntVal GHC.Integer.Type.Integer
+    | FunVal Main.Env Main.Name Main.Exp
+b4b0c2d3661e025f3fe5e4c8727ff6fe
+  eval0 :: Main.Env -> Main.Exp -> Main.Value
+  {- Arity: 2, Strictness: <L,U><S,1*U> -}
+8071357c3eb6d6df62dbfa770d8818cc
+  eval1 :: Main.Env -> Main.Exp -> Main.Eval1 Main.Value
+  {- Arity: 2, Strictness: <L,U><S,1*U> -}
+60c140c1bebbbef631dfda19c437424a
+  eval2a :: Main.Env -> Main.Exp -> Main.Eval2 Main.Value
+  {- Arity: 2, Strictness: <L,U><S,1*U> -}
+e7c2410c10d280b52a97bfcdf9ed16f7
+  eval2b :: Main.Env -> Main.Exp -> Main.Eval2 Main.Value
+  {- Arity: 2, Strictness: <L,U><S,1*U> -}
+976d22cd4ac4a6d3c168c711ad68503d
+  eval2c :: Main.Env -> Main.Exp -> Main.Eval2 Main.Value
+  {- Arity: 2, Strictness: <L,U><S,1*U> -}
+32c7896ae19d67786d13359167d74466
+  exampleExp :: Main.Exp
+  {- Strictness: m3,
+     Unfolding: (Main.Plus Main.exampleExp10 Main.exampleExp1) -}
+4cbd17874aa5b8e589bbc9957d35f5b6
+  exampleExp1 :: Main.Exp
+  {- Strictness: m5,
+     Unfolding: (Main.App Main.exampleExp7 Main.exampleExp2) -}
+db67b93f2d87c61c21df412924906c92
+  exampleExp10 :: Main.Exp
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (Main.Lit Main.exampleExp11) -}
+0fbd4b2f4fd7218e562e86cc1823b015
+  exampleExp11 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (__integer 12) -}
+6156e727768ea4ee0de9e8fc6eb8c29d
+  exampleExp2 :: Main.Exp
+  {- HasNoCafRefs, Strictness: m3,
+     Unfolding: (Main.Plus Main.exampleExp5 Main.exampleExp3) -}
+9e6a82351f04887aefff6f4e28ea64d5
+  exampleExp3 :: Main.Exp
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (Main.Lit Main.exampleExp4) -}
+f6d7bd545db6a78b92e8e9e59587a501
+  exampleExp4 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (__integer 2) -}
+9d4d27cac096ba2202b12ec9f3416f10
+  exampleExp5 :: Main.Exp
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (Main.Lit Main.exampleExp6) -}
+8b121f4088f9480485f7cd1e3bf9eb17
+  exampleExp6 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (__integer 4) -}
+c7e2db6516b696835155861fc4a9fdcd
+  exampleExp7 :: Main.Exp
+  {- Strictness: m4,
+     Unfolding: (Main.Abs Main.exampleExp9 Main.exampleExp8) -}
+50a985b8c045462382fba42a8a78ee9a
+  exampleExp8 :: Main.Exp
+  {- Strictness: m2, Unfolding: (Main.Var Main.exampleExp9) -}
+cec085bd63275ea42d92fb27a78ceed7
+  exampleExp9 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "x"#) -}
+ef40a3682deabbcea478c2c998baaf79
+  main :: GHC.Types.IO ()
+  {- Strictness: b,
+     Unfolding: InlineRule (0, True, True)
+                (GHC.Err.undefined @ (GHC.Types.IO ())) -}
+59d0f1822269e806085a481150784e4e
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   (GHC.Err.undefined @ (GHC.Types.IO ()))) -}
+d05e72cbc8d2653076915f01e8127f75
+  runEval1 :: Main.Eval1 a -> a
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                Data.Functor.Identity.$fFoldableIdentity2
+                  `cast`
+                (forall a7.
+                 <Data.Functor.Identity.Identity a7>_R
+                 ->_R Data.Functor.Identity.NTCo:Identity[0] <a7>_R) -}
+d810d659d1f204b05d1b04695bca2da1
+  runEval2 :: Main.Eval2 a -> Data.Either.Either GHC.Base.String a
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.runEval4
+                  `cast`
+                (forall a7.
+                 <Main.Eval2 a7>_R
+                 ->_R Trans
+                          (Control.Monad.Trans.Either.NTCo:EitherT[0]
+                               <GHC.Base.String>_N <Data.Functor.Identity.Identity>_R <a7>_N)
+                          (Data.Functor.Identity.NTCo:Identity[0]
+                               <Data.Either.Either GHC.Base.String a7>_R)) -}
+05c96b8b3681c0aa281334f6d05fd211
+  runEval4 :: Main.Eval2 a -> Main.Eval2 a
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ a7 ev :: Main.Eval2 a7 -> ev) -}
+instance GHC.Show.Show [Main.Exp] = Main.$fShowExp
+instance GHC.Show.Show [Main.Value] = Main.$fShowValue
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
